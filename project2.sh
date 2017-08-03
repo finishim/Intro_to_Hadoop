@@ -31,3 +31,5 @@ cd data
 mkdir outA1
 cd outA1
 hadoop fs -get outA1/part* resultA1.csv
+
+# Result: 2456 for /assets/js/the-associates.js 
