@@ -20,7 +20,7 @@ hadoop fs -put access_log input2
 
 # Run the Mapper and Reducer
 cd /home/training/udacity_training/code
-hs mapperA1.py reducerA1.py input2 outA1
+hs mapperA1.py reducerA1.py input2 outA2
 
 # Look at the result
 hadoop fs -cat outA1/part-00000 | less
